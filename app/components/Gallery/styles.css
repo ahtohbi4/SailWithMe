@@ -1,0 +1,70 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery__img-container {
+    position: relative;
+    width: 283px;
+    margin: 0 10px 20px 0;
+}
+
+.gallery__img-remover {
+    position: absolute;
+    top: 9px;
+    right: 12px;
+    padding: 4px;
+    background: #000;
+    border-radius: 50%;
+    opacity: .47;
+}
+.gallery__img-remover:hover {
+    opacity: .8;
+}
+.gallery__img-remover svg {
+    display: block;
+}
+
+.gallery__img {
+    width: 100%;
+}
+
+.gallery__no-images-message {
+    width: 100%;
+    margin-bottom: 22px;
+    padding: 90px 0;
+    text-align: center;
+}
+
+.gallery__drop-zone {
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.gallery__drop-zone-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 110px;
+    background: #f2f7fa;
+    border: 1px solid #c1cac9;
+}
+
+.gallery__drop-zone-message {
+    color: #8dc1e9;
+}
+
+.gallery__rejected-files {
+    padding-top: .75em;
+    color: #f30;
+    font-size: .75em;
+}
+
+.gallery__rejected-files-alert {
+    margin: 0 0 .75em;
+}
+
+.gallery__rejected-files-list {
+    margin: 0 0 1.5em;
+}

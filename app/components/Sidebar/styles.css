@@ -1,0 +1,24 @@
+.sidebar {
+    width: 222px;
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.sidebar__box {
+    height: 250px;
+    margin-bottom: 17px;
+    background: #fff;
+    border: 1px solid #c2c2c2;
+}
+
+.sidebar__box_rounded {
+    border-radius: 12px;
+}
+
+/* @todo Temporary classes. */
+.sidebar__box:nth-child(1) {
+    height: 244px;
+}
+.sidebar__box:nth-child(2) {
+    height: 400px;
+}

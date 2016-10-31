@@ -1,0 +1,10 @@
+.promoblock {
+    border-top: 1px solid #d5dade;
+}
+
+.promoblock__content {
+    width: 1210px;
+    margin: 0 auto;
+    padding: 20px 0 22px;
+    text-align: center;
+}
