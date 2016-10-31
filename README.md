@@ -7,6 +7,7 @@ Start
 ```bash
 $ git clone https://github.com/ahtohbi4/SailWithMe.git
 $ cd SailWithMe
+$ npm run setup
 $ npm start
 ```
 
