@@ -1,7 +1,7 @@
 SailWithMe
 ==
 
-Installation
+Start
 --
 
 ```bash
@@ -10,4 +10,4 @@ $ cd SailWithMe
 $ npm start
 ```
 
-And open in your browser [http://localhost:3000/gallery].
+And open in your browser [http://localhost:3000/gallery](http://localhost:3000/gallery).
